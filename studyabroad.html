@@ -44,6 +44,19 @@
 				<li>BIS 484: Internship - A+</li>
 			</ul> 
 
+			<h3>Map of Dublin</h3>
+			<div id="map" style="width:400px;height:400px">
+			function myMap() {
+    			var mapOptions = {
+        			center: new google.maps.LatLng(53.3, 6.26),
+        			zoom: 10,
+        			mapTypeId: google.maps.MapTypeId.HYBRID
+    			}
+				var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+			}
+
+			<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
 			<h3>Gallery</h3>
 
 			<div id="gallery">
